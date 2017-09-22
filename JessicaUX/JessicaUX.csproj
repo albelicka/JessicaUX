@@ -237,6 +237,11 @@
     <Content Include="Content\Images\WreathLogowebsite.png" />
     <Content Include="Content\Images\WreathLogowebsite1.png" />
     <Content Include="Content\Images\WreathLogowebsite2 copy.png" />
+    <Content Include="Content\Images\JBLogo1.png" />
+    <Content Include="Content\Images\JBLogo2.png" />
+    <Content Include="Content\Images\JBLogo3.png" />
+    <None Include="Content\Images\JBLogoSmall.psd" />
+    <Content Include="Content\Images\JBLogo4.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
