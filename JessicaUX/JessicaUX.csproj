@@ -242,6 +242,11 @@
     <Content Include="Content\Images\JBLogo3.png" />
     <None Include="Content\Images\JBLogoSmall.psd" />
     <Content Include="Content\Images\JBLogo4.png" />
+    <Content Include="Views\Home\AboutMe.cshtml" />
+    <Content Include="Content\Images\JBUXLogoPurple.png" />
+    <Content Include="Content\Images\jbuxlogopurpleorange.png" />
+    <Content Include="Content\Images\jbuxpurpleorange1.png" />
+    <Content Include="Content\Images\jbuxlogopurpleorange1.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

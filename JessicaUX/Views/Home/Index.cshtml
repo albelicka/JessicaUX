@@ -1,53 +1,80 @@
-﻿<div id="headerInfo">
-    <img src="/content/images/JBLogo4.png" />
+﻿<div id="textAnimation">
+    <svg class="intro" viewbox="0 0 200 86">
+  <text text-anchor="start" x="10" y="30" class="text text-stroke" clip-path="url(#text1)">Where Humanity</text>
+  <text text-anchor="start" x="10" y="50" class="text text-stroke" clip-path="url(#text2)">And Technology</text>
+  <text text-anchor="start" x="10" y="70" class="text text-stroke" clip-path="url(#text3)">Merge.</text>
+  <text text-anchor="start" x="10" y="30" class="text text-stroke text-stroke-2" clip-path="url(#text1)">Where Humanity</text>
+  <text text-anchor="start" x="10" y="50" class="text text-stroke text-stroke-2" clip-path="url(#text2)">And Technology</text>
+  <text text-anchor="start" x="10" y="70" class="text text-stroke text-stroke-2" clip-path="url(#text3)">Merge.</text>
+  <defs>
+    <clipPath id="text1">
+      <text text-anchor="start" x="10" y="30" class="text">Where Humanity</text>
+    </clipPath>
+    <clipPath id="text2">
+      <text text-anchor="start" x="10" y="50" class="text">And Technology</text>
+    </clipPath>
+    <clipPath id="text3">
+      <text text-anchor="start" x="10" y="70" class="text">Merge.</text>
+    </clipPath>
+  </defs>
+</svg>
 </div>
+
+
+
+
 
 <div id="navbar">
-    <nav class="navbar navbar-inverse">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: grey;
+}
+
+.active {
+background-color:white;
+}
+</style>
+
+<ul>
+  <li><a class="active" href="#contact">Contact</a></li>
+  <li><a href="#portfolio">Portfolio</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#home">Home</a></li>
+</ul>
 </div>
-
-
-
-<div id="content">
-    <div class="inner-width extra-padding default-title-section">
-    <h1>About</h1>
-    <h3 class="default-subtitle"></h3>
-    <p>Hello!</p>
-<p>I have always had a strong interest in neuroscience, sociology, and psychology. I served the brain injury population for almost a decade, as a therapist and brain injury specialist, and wanted to take my knowledge of the human mind and apply that knowledge in a different capacity. In my quest to merge the two worlds I found User Experience (UX). Merging humanity and technology is now my full time goal! I have a keen interest in Interaction Design, User Research, and Content Strategy. </p>
-<p>I have always been a strong advocate for my clients along the years and apply that same level of empathy and intuition to user needs. I enjoy getting into someone’s head and seeing how that changes the way I would design content around their needs. I also love working on multi-disciplinary teams and work best when creativity and collaboration are at play! .</p>
-<p>When I am not studying or working I enjoy spending time with my family and friends. I have strong love for travel and my travel bucket list is about a thousand miles long. Playing music is also a passion of mine. I have been playing piano since the age of 6 and picked up lots of other instruments along the way. I enjoy composing, recording, and playing music whenever I can fit it in. I am also an avid lover of interior design. I love to create spaces that people love because of their attention to detail and style.</p>
-<p>-Jessica</p>
-<p>“…villains of industry seek to deprive us of our humanity. Scientists, scholars, and designers prevail, and a new profession flourishes, turning man’s submission to technology into technology’s submission to man.” 
--Leah Buley, The User Experience Team of One
-</p>
-      </div>
-</div>
-
+<div id= "content">
+    <div class= "logo" >
+		<div style="width:500px; text-align:right;">
+	        <img src="/content/images/jbuxlogopurpleorange1.png" />
+    	</div>
+    </div>
+</div>  
 <div>
-<footer role="footer">
-      <nav>
-        <ul>
-          <li>
-            <a href="//twitter.com/JessicaBelicka"><i class="icon icon-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="//https://www.linkedin.com/in/jessica-belicka-a1b7307a/i class="icon icon-dribbble"></i>
-            </a>
-          </li>
-
-        </ul>
-      </nav>
-      <p>
-        © 2017 Jessica Belicka 
-      </p>
-
-    </footer>
+	<div id= "pagecontent">
+	</div>
 </div>
+
+<script type="text/javascript">
+  $('.intro').attr('class', 'intro go');
+</script>
