@@ -1,28 +1,6 @@
-﻿<div id="textAnimation">
-    <svg class="intro" viewbox="0 0 200 86">
-  <text text-anchor="start" x="10" y="30" class="text text-stroke" clip-path="url(#text1)">Where Humanity</text>
-  <text text-anchor="start" x="10" y="50" class="text text-stroke" clip-path="url(#text2)">And Technology</text>
-  <text text-anchor="start" x="10" y="70" class="text text-stroke" clip-path="url(#text3)">Merge.</text>
-  <text text-anchor="start" x="10" y="30" class="text text-stroke text-stroke-2" clip-path="url(#text1)">Where Humanity</text>
-  <text text-anchor="start" x="10" y="50" class="text text-stroke text-stroke-2" clip-path="url(#text2)">And Technology</text>
-  <text text-anchor="start" x="10" y="70" class="text text-stroke text-stroke-2" clip-path="url(#text3)">Merge.</text>
-  <defs>
-    <clipPath id="text1">
-      <text text-anchor="start" x="10" y="30" class="text">Where Humanity</text>
-    </clipPath>
-    <clipPath id="text2">
-      <text text-anchor="start" x="10" y="50" class="text">And Technology</text>
-    </clipPath>
-    <clipPath id="text3">
-      <text text-anchor="start" x="10" y="70" class="text">Merge.</text>
-    </clipPath>
-  </defs>
-</svg>
+﻿<div id="minilogo">
+	<img src= "/content/images/minilogo.png">
 </div>
-
-
-
-
 
 <div id="navbar">
 
@@ -32,7 +10,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: transparent;
 }
 
 li {
@@ -41,39 +19,58 @@ li {
 
 li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-a:hover:not(.active) {
-    background-color: grey;
-}
+
 
 .active {
-background-color:white;
+background-color:transparent;
 }
 </style>
 
 <ul>
-  <li><a class="active" href="#contact">Contact</a></li>
+  <li><a href="#contact">Contact</a></li>
   <li><a href="#portfolio">Portfolio</a></li>
   <li><a href="#about">About</a></li>
   <li><a href="#home">Home</a></li>
 </ul>
+  
 </div>
-<div id= "content">
-    <div class= "logo" >
-		<div style="width:500px; text-align:right;">
-	        <img src="/content/images/jbuxlogopurpleorange1.png" />
-    	</div>
-    </div>
-</div>  
-<div>
+
+<div id= "name">
+	<p>Jessica Belicka | User Experience</p>
+</div>
+<div id="textAnimation">
+    <svg class="intro" viewbox="0 0 250 86">
+  <text text-anchor="start" x="10" y="30" class="text text-stroke" clip-path="url(#text1)">Merging Humanity and Technology</text>
+  <text text-anchor="start" x="10" y="30" class="text text-stroke text-stroke-2" clip-path="url(#text1)">Merging Humanity and Technology</text>
+
+  <defs>
+    <clipPath id="text1">
+      <text text-anchor="start" x="10" y="30" class="text">Merging Humanity and Technology</text>
+    </clipPath>
+
+  </defs>
+</svg>
+</div>
+
+
+
+
+
+
 	<div id= "pagecontent">
-	</div>
 </div>
+	
+
+<div id= "portfoliobutton">
+	<img src= "/content/images/button_view-my-work.png">
+</div>
+
 
 <script type="text/javascript">
   $('.intro').attr('class', 'intro go');

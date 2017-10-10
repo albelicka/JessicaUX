@@ -1,26 +1,10 @@
 ﻿
-.logo {
-    margin:inherit;
-    width: 250px;
-    position:absolute;
-    right: 1080px;
-    top: 90px;
 
-   
-}
 body {
-    height: 100vh;
-    padding: 0;
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat padding: 0;
     margin: 0;
-    background-color: white;
-}
-
-html {
-    height: 100%;
-    margin: 0;
-}
-body {
-    
+    background-image: url("/content/images/backgroundimage.png");
     margin: 0;
     height: 100%;
     background-color: white;
@@ -31,44 +15,68 @@ body {
     background-size: cover;
 }
 
-#logo {
-    top: 35%;
-    margin: auto;
+html {
+    height: 100%;
+    margin: 0;
+}
+
+
+#minilogo {
+    float: left;
 }
 
 #navbar {
-    background-color: white;
-    
-}
-   
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
 
-#content {
+}
+#name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 35px;
     margin: auto;
-    width: 960px;
-    opacity: .95;
-    top: 80%;
-    background-color: blue;
-    font-family: 'Arial';
+    width: 665px;
+    height: 35px;
+    margin-bottom:10px;
+    margin-top: 250px;
+    text-shadow: 2px 2px 4px #525354;
+    text-transform: uppercase;
+    text-transform: full-width;
+}
+#textAnimation {
+    font-size: smaller;
+    height: 35px;
+    margin:auto;
+    margin-bottom: 10px;
+    top: 350;
+    width: 650px;
+    display: block;
+}
+#portfoliobutton {
+    width: 178px;
+    height: 35px;
+    margin: auto;
+
 }
 
 
 
-body {
-    height: 100vh;
-    padding: 0;
-    margin: 0;
-    background-color: white;
+ {
+    background-color: transparent;
 }
 
 svg.intro {
-    background-color: white;
-    max-width: 700px;
+    background-color: transparent;
+    max-width: 800px;
     position: absolute;
-    top: 29%;
-    left: 60%;
+    top: 37%;
+    left: 58%;
+    margin-bottom: 10px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    box-shadow: 0 30px 50px -20px #2e0642;
+    margin-top: 180px;
+   
+
 }
 
     svg.intro .text {
@@ -76,15 +84,16 @@ svg.intro {
     }
 
     svg.intro.go .text {
-        font-family: Arial, sans-serif;
-        font-size: 20px;
-        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8px;
         display: block;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 4px #efefef;
     }
 
     svg.intro.go .text-stroke {
         fill: none;
-        stroke: #6e6878;
+        stroke: #efefef;
         stroke-width: 2.8px;
         stroke-dashoffset: -900;
         stroke-dasharray: 900;
@@ -105,7 +114,7 @@ svg.intro {
         }
 
     svg.intro.go .text-stroke-2 {
-        stroke: #6000ff;
+        stroke: #525354;
         -webkit-animation-delay: 1.2s;
         animation-delay: 1.2s;
     }
