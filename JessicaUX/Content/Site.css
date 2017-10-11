@@ -1,6 +1,4 @@
-﻿
-
-body {
+﻿body {
     background-size: 1920px 1080px;
     background-repeat: no-repeat padding: 0;
     margin: 0;
@@ -30,6 +28,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
 #name {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -43,91 +42,73 @@ html {
     text-transform: uppercase;
     text-transform: full-width;
 }
-#textAnimation {
-    font-size: smaller;
-    height: 35px;
-    margin:auto;
-    margin-bottom: 10px;
-    top: 350;
-    width: 650px;
-    display: block;
-}
+
 #portfoliobutton {
     width: 178px;
     height: 35px;
     margin: auto;
-
 }
 
-
-
- {
-    background-color: transparent;
+#textAnimation {
+    width: 510px;
+    margin:auto;
+    margin-bottom: 10px;
 }
 
 svg.intro {
     background-color: transparent;
-    max-width: 800px;
-    position: absolute;
-    top: 37%;
-    left: 58%;
-    margin-bottom: 10px;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    margin-top: 180px;
-   
-
+    height: 35px;
+    width: 510px;
 }
 
-    svg.intro .text {
-        display: none;
-    }
+svg.intro .text {
+    display: none;
+}
 
-    svg.intro.go .text {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 8px;
-        display: block;
-        text-transform: uppercase;
-        text-shadow: 2px 2px 4px #efefef;
-    }
+svg.intro.go .text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    display: block;
+    text-transform: uppercase;
+}
 
-    svg.intro.go .text-stroke {
-        fill: none;
-        stroke: #efefef;
-        stroke-width: 2.8px;
-        stroke-dashoffset: -900;
-        stroke-dasharray: 900;
-        stroke-linecap: butt;
-        stroke-linejoin: round;
-        -webkit-animation: dash 2.5s ease-in-out forwards;
-        animation: dash 2.5s ease-in-out forwards;
-    }
+svg.intro.go .text-stroke {
+    fill: none;
+    stroke: #efefef;
+    stroke-width: 2.8px;
+    stroke-dashoffset: -900;
+    stroke-dasharray: 900;
+    stroke-linecap: butt;
+    stroke-linejoin: round;
+    -webkit-animation: dash 2.5s ease-in-out forwards;
+    animation: dash 2.5s ease-in-out forwards;
+}
 
-        svg.intro.go .text-stroke:nth-child(2) {
-            -webkit-animation-delay: .3s;
-            animation-delay: .3s;
-        }
+svg.intro.go .text-stroke:nth-child(2) {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
 
-        svg.intro.go .text-stroke:nth-child(3) {
-            -webkit-animation-delay: .9s;
-            animation-delay: .9s;
-        }
+svg.intro.go .text-stroke:nth-child(3) {
+    -webkit-animation-delay: .9s;
+    animation-delay: .9s;
+}
 
-    svg.intro.go .text-stroke-2 {
-        stroke: #525354;
-        -webkit-animation-delay: 1.2s;
-        animation-delay: 1.2s;
-    }
+svg.intro.go .text-stroke-2 {
+    stroke: #525354;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
 
-    svg.intro.go .text-stroke:nth-child(5) {
-        -webkit-animation-delay: 1.5s;
-        animation-delay: 1.5s;
-    }
+svg.intro.go .text-stroke:nth-child(5) {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
 
-    svg.intro.go .text-stroke:nth-child(6) {
-        -webkit-animation-delay: 1.8s;
-        animation-delay: 1.8s;
-    }
+svg.intro.go .text-stroke:nth-child(6) {
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+}
 
 @-webkit-keyframes dash {
     100% {
