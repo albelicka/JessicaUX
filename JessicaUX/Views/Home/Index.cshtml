@@ -2,44 +2,25 @@
 	<a href="/"><img src= "/content/images/minilogo.png"></a>
 </div>
 
-<div id="navbar">
-
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-
-
-.active {
-background-color:transparent;
-}
-</style>
-
-<ul>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#portfolio">Portfolio</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="#home">Home</a></li>
-</ul>
-  
-</div>
+<nav class="navbar" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+    </div>
+    <div id="myNavbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
 <div id= "name">
 	<p>Jessica Belicka | User Experience</p>

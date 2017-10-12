@@ -21,12 +21,37 @@ html {
 
 #minilogo {
     float: left;
+    z-index: 1;
 }
 
-#navbar {
-    background-color: transparent;
+#myNavbar {
     font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
 
+.navbar {
+    margin-left: 100px;
+}
+
+.navbar-toggle {
+    outline-color: #ffffff;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav > li > a:hover {
+    background-color: transparent;
 }
 
 #name {
@@ -36,7 +61,7 @@ html {
     margin: auto;
     width: 665px;
     height: 35px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     margin-top: 250px;
     text-shadow: 2px 2px 4px #525354;
     text-transform: uppercase;
