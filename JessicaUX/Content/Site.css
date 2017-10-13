@@ -146,3 +146,22 @@ svg.intro.go .text-stroke:nth-child(6) {
         stroke-dashoffset: 0;
     }
 }
+
+@media all and (max-width: 480px) {
+    #name { 
+        width: 480px;
+        font-size: 24px;
+    }
+
+    #textAnimation {
+        width: 320px;
+    }
+
+    svg.intro {
+        width: 480px;
+    }
+
+    svg.intro.go .text {
+        font-size: 16px;
+    }
+}
