@@ -149,8 +149,8 @@ svg.intro.go .text-stroke:nth-child(6) {
 
 @media all and (max-width: 480px) {
     #name { 
-        width: 480px;
-        font-size: 24px;
+        width: 342px;
+        font-size: 18px;
     }
 
     #textAnimation {
