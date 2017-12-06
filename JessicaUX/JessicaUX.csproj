@@ -238,6 +238,34 @@
     <Content Include="Content\Images\BackgroundImage.png" />
     <Content Include="Content\Images\button_view-my-work.png" />
     <Content Include="Content\Images\minilogo.png" />
+    <Content Include="Content\Images\White Background.png" />
+    <Content Include="Content\Images\JBUX Logo.png" />
+    <Content Include="Content\Images\JBUX Logo Smaller.png" />
+    <Content Include="Content\Images\minilogoblack.png" />
+    <Content Include="Content\Images\minilogoblack1.png" />
+    <Content Include="Content\Images\minilogoblack2.png" />
+    <Content Include="Content\Images\Headshot.png" />
+    <Content Include="Content\Images\jessicabelickaheadshot.png" />
+    <Content Include="Content\Images\JBHeadshot.png" />
+    <Content Include="Content\Images\button.png" />
+    <Content Include="Content\Images\viewmywork.png" />
+    <Content Include="Content\Images\processbutton.png" />
+    <Content Include="Content\Images\UX_icon.png" />
+    <Content Include="Content\Images\Questionnaire Icon.png" />
+    <Content Include="Content\Images\form_icon.png" />
+    <Content Include="Content\Images\Heuristic Icon.png" />
+    <Content Include="Content\Images\notepad.png" />
+    <Content Include="Content\Images\ethnography.png" />
+    <Content Include="Content\form_icon.png" />
+    <Content Include="Content\if_notepad_1291737.png" />
+    <Content Include="Content\Images\if_notepad_1291737.png" />
+    <Content Include="Content\Images\usericon.png" />
+    <Content Include="Content\Images\usericon1.png" />
+    <Content Include="Content\Images\Linkedin.png" />
+    <Content Include="Content\Images\Twitter.png" />
+    <Content Include="Content\Images\twitter-logo.png" />
+    <Content Include="Content\Images\linkedin-logo1.png" />
+    <Content Include="Content\Images\twitter-logo1.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

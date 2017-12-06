@@ -2,7 +2,8 @@
     background-size: 1920px 1080px;
     background-repeat: no-repeat padding: 0;
     margin: 0;
-    background-image: url("/content/images/backgroundimage.png");
+    background-image: url("/content/images/White Background.png");
+    background-attachment: fixed;
     margin: 0;
     height: 100%;
     background-color: white;
@@ -21,37 +22,29 @@ html {
 
 #minilogo {
     float: left;
-    z-index: 1;
+    margin-top: 10px;
 }
 
-#myNavbar {
-    font-family: Arial, Helvetica, sans-serif;
-    float: right;
-}
-
-.navbar {
-    margin-left: 100px;
-}
-
-.navbar-toggle {
-    outline-color: #ffffff;
-}
-
-.navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-
-.nav-link {
-    color: #ffffff;
-}
-
-.nav-link:hover {
-    font-weight: bold;
-    color: #ffffff;
-}
-
-.nav > li > a:hover {
+#navbar {
     background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+#logo {
+    .center-div;
+
+   
+    margin: auto;
+    margin-top: 30px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 271px;
+    background-color: transparent;
+    border-radius: 3px;
 }
 
 #name {
@@ -61,8 +54,8 @@ html {
     margin: auto;
     width: 665px;
     height: 35px;
-    margin-bottom: 10px;
-    margin-top: 250px;
+    margin-bottom:10px;
+    margin-top: 10px;
     text-shadow: 2px 2px 4px #525354;
     text-transform: uppercase;
     text-transform: full-width;
@@ -70,8 +63,9 @@ html {
 
 #portfoliobutton {
     width: 178px;
-    height: 35px;
+    height: 45px;
     margin: auto;
+    margin-bottom: 25px;
 }
 
 #textAnimation {
@@ -147,21 +141,147 @@ svg.intro.go .text-stroke:nth-child(6) {
     }
 }
 
-@media all and (max-width: 480px) {
-    #name { 
-        width: 342px;
-        font-size: 18px;
-    }
+#aboutme {
+    margin-top: 80px;
+    border-radius: 25px;
+    border: 2px solid;
+    border-color: white;
+    display: table-cell;
 
-    #textAnimation {
-        width: 320px;
-    }
+   
+}
 
-    svg.intro {
-        width: 480px;
-    }
+#about {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #525354;
+    text-transform: uppercase;
+    text-transform: full-width;
+}
 
-    svg.intro.go .text {
-        font-size: 16px;
-    }
+#aboutmetext {
+    margin: 0 20px;
+
+}
+
+#headshot {
+    float: right;
+    margin-right: 20px;
+   
+}
+#portfolio {
+    border-radius: 25px;
+    border: 2px solid;
+    border-color: white;
+    display: inline-block;
+}
+
+#portfolioheading {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #525354;
+    text-transform: uppercase;
+    text-transform: full-width;
+
+}
+
+.processheadings {
+    margin: auto;
+    width: 250px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    font-style: bold;
+    padding-bottom: 10px;
+}
+#process {
+    text-align:center;
+}
+.approach {
+    font-size: 15px;
+    font-style: bold;
+}
+div.process {
+    height: 200px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: none;
+    margin-bottom: none;
+    border-top: 4px solid #00ccff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
+}
+
+div.col {
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 0 10px;
+}
+#casestudies {
+    border-radius: 25px;
+    border: 2px solid;
+    border-color: white;
+    text-align:center;
+}
+#casestudyheading {
+    position: inherit;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #525354;
+    text-transform: uppercase;
+    text-transform: full-width;
+}
+#toolkit {
+    border-radius: 25px;
+    border: 2px solid;
+    border-color: white;
+}
+#toolkitheading {
+    position: inherit;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #525354;
+    text-transform: uppercase;
+    text-transform: full-width;
+}
+.education {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    font-style: bold;
+   
+}
+.education1 {
+    margin-left: 20px;
+}
+.degrees {
+    font-style:oblique;
+    font-style: bold;
+}
+.cheat {
+    color: transparent;
 }
